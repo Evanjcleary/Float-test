@@ -2,17 +2,17 @@
  * Float Layout Activity
  **/
 
- .clearfix::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
+/**This is setting everything in their boxes at the center **/
  * {
   box-sizing: border-box;
   text-align: center;
 }
 
+/** This adds uniform font, line height and font folor to your whole <body> </body> section **/
 body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
 }
 
 header {
@@ -28,35 +28,51 @@ section {
   background: #eee;
 }
 
+/** Added width 33.3%**/
 #left {
-  background: #666;
+  background: teal;
+  width: 33.3%;
   float: left;
 }
 
 #middle {
-  background: #888;
+  background: red;
+  width: 33.3%;
   float: left;
 }
 
 #right {
-  background: #666;
+  background: teal;
+  width: 33.3%;
   float: left;
 }
 
 #full {
+  width: 100%;
+  overflow: auto;
+  clear: both;
   background: #999;
   padding: 50px;
 }
 
 #division {
   background: royalblue;
-  padding: 30px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.clearfix::after{
+  content:"";
+  clear: both;
+  display: block;
 }
 
 aside {
-  background: white;
+  float: left;
+  width: 33%;
+  border: 1px solid white;
+  background: lightgreen;
   padding: 60px;
-
 }
 
 footer {
