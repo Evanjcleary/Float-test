@@ -1,0 +1,51 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #ccc;;
+}
+
+#left {
+  background: #666;
+  float: left;
+}
+
+#middle {
+  background: #888;
+  float: left;
+}
+
+#right {
+  background: #666;
+  float: left;
+}
+
+#full {
+}
+
+#division {
+}
+
+aside {
+}
+
+footer {
+}
